@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <style>
+        
+        img {
+            width: 50%;
+        }
+        h1{ 
+            text-align: center;
+            background-color: rgb(17, 180, 255);
+            padding-top: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 2px solid black;
+            font-size: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACESSIBILIDADE</title>
+    <style>
+        th {
+            text-align: left;
+            background-color: azure;
+            padding: 15px;
+            font-style: inherit;
+            border: 2px solid rgb(56, 165, 168);
+        }
+        td {
+            padding: 15px;
+            border: 2px solid rgb(56, 165, 168);
+        }
+        table {
+            border: 4px solid rgb(56, 165, 168);
+            width: 75%;
+        
+        }
+    </style>
+    
+    <style>
+body {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  size: 100px;
+}
+    </style>
+
+</head>
+<body>
+    
+    <h1>ACESSIBILIDADE PARA WEB</h1>
+    <br>
+    <h2> Acessibilidade é tornar páginas da Web acessíveis para todos, expecialmente para pessoas com deficiência.</h2>
+    <p>Para um site ser acessível, o mesmo deve ser bem objetivo.</p>
+
+    <p>Crie bons links, pois muitas vezes um link não contém informações necessarias para o leitor que está navegando no site.</p>
+
+    <h2>Exemplos de links que são acessíveis, eles devem conter mais informações.</h2>
+
+    <ul>
+        <li><a href="#"> Saiba mais a respeito de Acessibilidade.</a></li>
+        <li><a href="#"> Leia mais informações sobre HTML.</a></li>
+        <li><a href="#"> Compre passagens para viagem aos Estados Unidos.</a></li>
+
+    </ul>
+
+    <h3>Exemplos de links que não devem ser usados.</h3>
+
+    <ul>
+        <li><a href="#"> Ler mais...</a></li>
+        <li><a href="#"> Acesse aqui.</a></li>
+        <li><a href="#"> Mostre mais.</a></li>
+    </ul> 
+
+    <h2>É importante aplicar tabelas explicativas e objetivas ao seu site.</h2>
+
+    <p>Exemplo de tabela que poderia ser usada.</p>
+
+    <h3>Tabela que contém número de pessoas vacinadas contra a Covid-19, no Brasil.</h3>
+
+    <table>
+        <tr>
+          <td>Brasil</td>
+          <td>Percentual (%)</td>
+        </tr>
+        <tr>
+          <td>Primeira dose</td>
+          <td>181 milhões de pessoas</td>
+        </tr>
+        <tr>
+          <td>Segunda dose</td>
+          <td>170 milhões pessoas</td>
+        </tr>
+        <tr>
+          <td>Terceira dose</td>
+          <td>103 milhões pessoas</td>
+          </tr>
+          
+      </table>
+
+      <h2>Exemplo de um formulário.</h2>
+
+      <p>O formulário que será utilizado abaixo será apenas para fins ilustrativos neste site.</p>
+      
+      <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label>Nome: </label><input type="text" name="">
+            <br>
+            <label>Idade: </label><input type="number">
+            <br>
+            <label>Email: </label><input type="email">
+            <br>
+            <label>Data de nascimento: </label><input type="date">
+            <br>
+        </fieldset>
+        </form>
+
+        <article>
+        <h2>As imagens melhoram o visual do seu site</h2>
+
+        <figure>
+
+        <img src="nuvem de palavras.jpg" alt="Nuvem de palavras referentes a Acessibilidade">
+        <figcaption>Imagem 1. Nuvem de palavras em inglês, a palavra acessibility (tradução: Acessibilidade) está no centro.</figcaption>
+    
+    </figure>
+</article>
+
+        <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <h4>Abaixo veremos o botão para aplicar no site o modo noturno.</h4>
+
+<button onclick="myFunction()">Modo noturno.</button>
+
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+      
+</body>
+</html>
